@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    padding: 3rem 1rem;
+    background-color: rgb(13, 25, 43);
+}
+
+main {
+    padding: 2rem 1.5rem;
+    background-color: rgb(20, 37, 61);
+}
+
+.card-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+main h1 {
+    margin-top: 1rem;
+    color: white;
+    font-size: 1.2rem;
+}
+
+main p {
+    margin-top: 1rem;
+    color: rgba(139, 172, 218, 0.699);
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+    padding-bottom: .8rem;
+    border-bottom: 1px solid rgba(139, 172, 218, 0.2);
+}
+
+.price, .time {
+    display: flex;
+    align-items: center;
+}
+
+.info .price span {
+    align-self: center;
+    margin-left: 0.3rem;
+    color: rgb(0, 255, 247);
+}
+
+.info .time span {
+    color: rgba(139, 172, 218, 0.699);
+}
+
+.info .time img {
+    margin-right: .3rem;
+}
+
+.avatar {
+    margin-top: 1rem;
+    display: flex;
+    border: 1px solid white;
+}
+
+.avatar img {
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid white;
+    border-radius: 100px;
+
+}
+
+.avatar p {
+    margin-left: .5rem;
+}
+
